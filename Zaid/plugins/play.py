@@ -28,7 +28,7 @@ from youtubesearchpython import VideosSearch
 fotoplay = "https://telegra.ph/file/b6402152be44d90836339.jpg"
 ngantri = "https://telegra.ph/file/b6402152be44d90836339.jpg"
 from Zaid import call_py, Zaid, client as Client
-owner = "1669178360"
+owner = "5761513990"
 from Zaid.helpers.yt_dlp import bash
 from Zaid.helpers.chattitle import CHAT_TITLE
 from Zaid.helpers.queues import (
@@ -128,7 +128,7 @@ async def _(event):
      await event.delete()
 
 btnn =[
-    [Button.url("sᴜᴘᴘᴏʀᴛ ⚙️", url=f"t.me/{Config.SUPPORT}"), Button.url("cʜᴀɴɴᴇʟ 🇮🇳", url=f"t.me/{Config.CHANNEL}")],
+    [Button.url("sᴜᴘᴘᴏʀᴛ ⚙️", url=f"t.me/{Config.SUPPORT}"), Button.url("cʜᴀɴɴᴇʟ 🇧🇩", url=f"t.me/{Config.CHANNEL}")],
     [Button.inline("cʟᴏꜱᴇ 🗑️", data="cls")]]
 
 
