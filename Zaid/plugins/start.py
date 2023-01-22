@@ -1,7 +1,7 @@
 from Zaid import Zaid, BOT_USERNAME
 from Config import Config
 from telethon import events, Button
-from config import OWNER_ID
+from Config import OWNER_ID
 
 PM_START_TEXT = """
 ʜᴇʏᴀ! {}
