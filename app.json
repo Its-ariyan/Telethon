@@ -1,0 +1,23 @@
+{
+    "name": "CodexunMusicBot",
+    "description": "Telegram Music Bot from Team Codexun allows you to stream music trought the telegram voice chat feature.",
+   "logo": "https://telegra.ph/file/7c8fc17112d22814da2e9.jpg",
+    "keywords": ["telegram music bot", "voice chat", "pytgcalls"],
+    "repository": "https://github.com/Its-ariyan/Telethon",
+    "stack": "container",
+    "env": {
+        "OWNER_ID": {
+            "description": "fill with your telegram id as the owner of the bot",
+            "required": true,
+            "value": "5761513990"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
